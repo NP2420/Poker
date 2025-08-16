@@ -26,6 +26,5 @@ picam2.start(show_preview=True)
 
 # Enable continuous autofocus
 picam2.set_controls({"AfMode": controls.AfModeEnum.Auto})
-picam2.set_controls({"AfTrigger": controls.AfTrigger.Start})
 
 time.sleep(10)  # Keep it running for 10 seconds before exit
